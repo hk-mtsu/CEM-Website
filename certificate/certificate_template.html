@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<title>Webcast Certificate</title>
+		<style type="text/css">
+			body 
+			{
+				font-family: "Arial Black", Gadget, sans-serif;				
+			}
+			h1 
+			{
+				font-size: 50px;
+			}
+			h2
+			{
+				font-size: 40px;
+			}
+			h3
+			{
+				font-size: 20px;
+			}
+			#cert
+			{
+				margin: 25px;
+				padding: 25px;
+				outline: 5px double;
+				display: inline-block;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div id ="cert">
+		<h1>{{ title }}</h1>
+		<h2>{{ webcast }}<h2>
+		<h3>{{ fname }} {{ lname }}</h3>
+		<h3>{{ date_time }}</h3>
+		<h3>Viewing Duration: {{ viewing_duration }}</h3>
+		<div id ="logos">
+			<!--<img height="200" src="../assets/logo-cem.svg" style="margin-left: -100px">-->
+			<img height="100" src="../assets/mtsu-logo.png" style="padding-bottom: 15px">
+			<img height="100" src="../assets/mtsu-logo.png" style="padding-bottom: 15px">
+		</div>
+		<a href="http://cem.mtsu.edu">http://cem.mtsu.edu</a>
+	</div>
+	</body>
+</html>
