@@ -24,49 +24,51 @@ session_start();
   <div class="page-header">
 <div class="page-content">
 
-<h1>Audio/Visual Services</h1>
+
+<div><h2 style="font-family: Georgia"> Online Professional Development </h2> <br></div>
 <p>
-	For over three decades Audio/Visual Services has supplied the University community, and state partners, with access to multimedia equipment and expertise.  Services offered include television production, program duplication, consultation on facility design and equipment purchases, installation services, and a full service repair shop for maintenance and supplies. 
+	<br> For over three decades Audio/Visual Services has supplied the University community, and state partners, with access to multimedia equipment and expertise.  Services offered include television production, program duplication, consultation on facility design and equipment purchases, installation services, and a full service repair shop for maintenance and supplies. 
 </p>
  
 <hr>
 
 <a href="equipment_checkout.php" class="av-services-link">
-	<h1>Engineering Services and Equipment Checkout</h1>
+	<h3 style="font-family: Georgia">Engineering Services and Equipment Checkout</h3>
 	<img src="assets/avservices/engineering-services.png">
 </a>
 <p>
-	Our experts can supply the right audio and visual tools to enhance your curriculum, research or grant.
+	<br> Our experts can supply the right audio and visual tools to enhance your curriculum, research or grant.
 </p>
 
 <hr>
 
 <a href="video_production.php" class="av-services-link">
-	<h1>Video Production</h1>
+	<h3 style="font-family: Georgia">Video Production</h3>
 	<img src="assets/avservices/video-production.png">
 </a>
 <p>
-	Partner with Television Production on your project with full studio, editing and on-location capabilities.
+	<br> Partner with Television Production on your project with full studio, editing and on-location capabilities.
 </p>
 
 <hr>
 
 <a href="http://avs.mtsu.edu/" class="av-services-link">
-	<h1>Client Review and Broadcast Outlet Webpage</h1>
+	<h3 style="font-family: Georgia">Client Review and Broadcast Outlet Webpage</h3>
 	<img src="assets/avservices/broadcast-outlet.png">
 </a>
 <p>
-	Visit our site to review and download video resources and collaborate on current projects.
+	<br> Visit our site to review and download video resources and collaborate on current projects.
 </p>
 
 <hr>
 
 <a href="https://www.youtube.com/playlist?list=PLsJ4ZEMqDTNkyzrMbHDs8zdcYahdSda1I" class="av-services-link" target="blank">
-	<h1>Out of the Blue</h1>
+	<h3 style="font-family: Georgia">Out of the Blue</h3>
 	<img src="assets/avservices/out-of-the-blue.png">
 </a>
+
 <p>
-	View our electronic magazine news show, co-produced with the MTSU's Office of Marketing and Communications.
+	<br> View our electronic magazine news show, co-produced with the MTSU's Office of Marketing and Communications.
 </p>
 
 <hr>

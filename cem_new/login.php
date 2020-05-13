@@ -14,16 +14,20 @@ if ((isset($_SESSION["authenticated"])) && ($_SESSION["authenticated"]))
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
 <title>Center for Educational Media | Home</title>
-<link rel="stylesheet" type="text/css" href="css/style.css">
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
 <?php 
-include "php/navbar.php"; 
+include "php/navbar.php";
 ?>
 
-<div class="page-content">
+<div class="container">
 
 <div id="alerts_div">&nbsp;</div>
 

@@ -26,7 +26,7 @@ session_start();
     <div class="row">
 <div class="page-content">
     
-	<h1>Education Resource Channel</h1>
+	<h2 style="font-family: Georgia"> Education Resource Channel</h2>
 	<hr>
     <div class="content" >
         <iframe src="https://videoplayer.telvue.com/player/h5VycNXH7bgkAv6afvGOOsaDDk8g7wPw?fullscreen=false&showtabssearch=true&autostart=false" width="1100" height="1000" frameborder="0" allowfullscreen></iframe>

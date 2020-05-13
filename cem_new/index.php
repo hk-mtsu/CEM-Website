@@ -26,13 +26,17 @@ session_start();
    <br/>
     <div class="row content">
         
+        <div class="container">
+        <div><h2 style="font-family: Georgia"> Home </h2> <br></div>
+        </div>
+        
         <div class = "co1-sm-1 col-md-1 sidenav">
         </div>
          
         <div class="col-sm-3 col-md-3 sidebar" style="text-align: center; font-size: 15px; background-color:white;">
             <div class="well">
             <fieldset>
-                    <legend>Contacts</legend>
+            <legend>Contacts</legend>
             <ul class="nav nav-sidebar">   
                 <li style="color:black;" class="active"><a href="#">Overview</a></li>
                 <li style="color:black;"><a href="#">Reports</a></li>
@@ -94,6 +98,7 @@ session_start();
             </a>
             </div>
          </div>
+        
          <div class="col-sm-3 col-md-3 text-left" style="text-align: center;">
              <div class="well">
             <fieldset>

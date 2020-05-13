@@ -20,31 +20,42 @@ session_start();
           include "php/navbar.php"; 
         ?>
     </div>
-  <div class="container ">
+  <div class="container-fluid ">
     <div class="page-content">
       <div class="row content">
-        <div id="pdevcontent">
-            <nav class="navbar navbar-default">
-              <div class="container-fluid">
-                <div class="navbar-header">
-                </div>
-                <ul class="nav navbar-nav">
-                  <li class="active"><a href="about.php">About</a></li>
-                  <li><a href="#pdevvideos">Online Professional Development</a></li>
-                  <li><a href="#pdevevent">Offline Professional Development</a></li>
-                </ul>
+        <nav class="navbar navbar-default">
+           <div class="container">
+             <div class="navbar-header">
               </div>
-            </nav>
-            
-            <div id="pdevevent" class="tabcontent">
-                <h1> Upcoming Events Registration </h1>
-                    <div class="wrapper">
-                        <?php include "forms/registration_form.php" ; ?>
-                    <div class="right" class="outline">
-                        <div id="browse_videos"></div>
-                </div>
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="professional_dev.php">About</a></li>
+                <li><a href="online_professional_dev.php"> Online Professional Development</a></li>
+                <li><a href="offline_professional_dev.php">Offline Professional Development</a></li>
+              </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <h2 style="font-family: Georgia"> Online Professional Development </h2> <br>
+        </div> 
+        <div class = "co1-sm-1 col-md-1 sidenav">
+        </div>
+        <div class="col-sm-3 col-md-3 sidebar" style="text-align: center; font-size: 15px; background-color:white;">
+            <div class="well">
+              <fieldset>
+                <legend>Online - HD Videos</legend>
+                <p>Online videos are available to view for PK-12 professional development. Click on tab for Online Professional Development.</p>
+              </fieldset>
             </div>
         </div>
+        <div class="col-sm-6 text-" style="text-align: left; font-size: 15px; background-color:white;">
+            <div class="well">
+            <fieldset>
+                <legend style="font-family: Georgia"> Upcoming Events Registration </legend>
+                <div class="well">
+                    <?php include "forms/registration_form.php" ; ?>
+                </div>
+            </fieldset>
+            </div>
         </div>
       </div>
     </div>

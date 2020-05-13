@@ -27,10 +27,10 @@ if (stripos($curr_page_b,"index.php") !== false){echo 'class="active"';}
 echo "href=\"$site_root/index.php\" class=\"nav-link\" >Home</a></li> ";
 echo "<li class=\"nav-item dropdown\">";
 echo "<a class=\"nav-link dropdown-toggle\" id=\"navbarDropdownMenuLink\" data-toggle=\"dropdown\"aria-haspopup=\"true\" aria-expanded=\"True\">Professional Development </a>";
-echo " <div class=\"dropdown-content\"> ";
-echo " <a class=\"dropdown-item\" href=\"$site_root/professional_dev.php\"  target=\" pdevabout\">About</a> <br>";
-echo " <a class=\"dropdown-item\" href=\"$site_root/professional_dev.php\" target=\" pdevvideos\">Online Professional Development</a><br> ";
-echo " <a class=\"dropdown-item\" href=\"$site_root/professional_dev.php\" target=\" pdevevent\">Offline Professional Development</a> <br>";
+echo " <div style=\"text-align: center;\" class=\"dropdown-content\"> ";
+echo " <a class=\"dropdown-item\" href=\"$site_root/professional_dev.php\">About</a> <br>";
+echo " <a class=\"dropdown-item\" href=\"$site_root/online_professional_dev.php\">Online Professional Development</a><br> ";
+echo " <a class=\"dropdown-item\" href=\"$site_root/offline_professional_dev.php\">Offline Professional Development</a> <br>";
 echo " </div>";
 
 
